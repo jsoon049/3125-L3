@@ -6,6 +6,7 @@ export const Header = () => {
   const [open, setOpen] = useState(false);
   return (
     <div className="header">
+      <h1 className="brand">Got Foodz</h1>
       <span
         style={!open ? { display: "" } : { visibility: "hidden" }}
         onClick={() => setOpen(true)}
@@ -13,11 +14,10 @@ export const Header = () => {
       >
         menu &#9776;
       </span>
-      <h1 className="brand">Got Foodz</h1>
       <div>
         {open && (
           <ul className="sidenav">
-            <button className="closebtn" onClick={() => setOpen(false)}>
+             <button className="closebtn" onClick={() => setOpen(false)}>
               &times;
             </button>
             <li>
