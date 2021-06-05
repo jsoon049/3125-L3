@@ -1,7 +1,4 @@
 .header {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
   background-color: #88b444;
   padding: 10px 25px;
 }
@@ -9,7 +6,6 @@
 .brand {
   margin: 0;
   color: midnightblue;
-  /* text-align: left; */
   position: absolute;
   right: 1.5%;
 }
@@ -19,13 +15,19 @@
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  left: -400px;
   background-color: white;
-  transition: 0.5s;
   padding-left: 0;
   margin: 0;
+  width: 350px;
+  padding-right: 1em;
+  overflow-x: hidden;
+  transition: all 500ms ease-in-out;
 }
 
+.active {
+  left: 0;
+}
 .sidenav li {
   list-style: none;
 }
@@ -36,8 +38,7 @@
   font-size: 25px;
   color: grey;
   display: block;
-  transition: 0.3s;
-  /* text-align: right; */
+  transition: 1s;
 }
 
 .sidenav a:hover {
@@ -51,37 +52,18 @@
   background-color: white;
 }
 
+.sidenavUL {
+  padding: 0;
+  margin-top: 40px;
+}
+
 .openbtn {
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 600;
-  /* float: right; */
+
 }
 
-
-
-/* a {
-  color: white;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  font-weight: 700;
-}
-
-a:hover {
-  opacity: 0.7;
-}
-
-.nav-links { */
-  /* padding: 0; */
-  /* margin: 0;
-  list-style: none;
-}
-
-.nav-links li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-@media only screen and (min-device-width: 768px) {
+/* @media only screen and (min-device-width: 768px) {
   .nav-links li {
     margin-right: 30px;
   }
@@ -92,7 +74,6 @@ a:hover {
 
 @media only screen and (min-width: 376px) {
   .brand {
-    position: absolute;
     font-size: 30px;
   }
 }
@@ -101,5 +82,5 @@ a:hover {
   .header {
     flex-direction: column;
     flex-wrap: wrap;
-  } */
-/* }  */
+  } 
+} */

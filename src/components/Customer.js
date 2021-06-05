@@ -26,13 +26,14 @@ export const Customer = () => {
 
   return (
     <div className="customer">
-      <h1 className="customerTitle">Customer Preferences</h1>
+      <h1 className="customerTitle">Dietary Restrictions</h1>
       <div className="customerContainer">
-        <p className="instructions">If applicable, please select one or more of the categories below</p>
+        <p className="instructions">If applicable, please select one or more of the dietary restrictions below</p>
         <div className="checkbox-wrapper">
           <label>
             Would you like to see our lactose-free products?
             <input
+              className="customerInput"
               type="checkbox"
               onChange={handleChange}
               defaultChecked={state.lactose}
@@ -42,6 +43,7 @@ export const Customer = () => {
           <label>
             Would you like to see our nut-free products?
             <input
+              className="customerInput"
               type="checkbox"
               onChange={handleChange}
               defaultChecked={state.nuts}
@@ -51,6 +53,7 @@ export const Customer = () => {
           <label>
             Would you like to see our organic products?
             <input
+              className="customerInput"
               type="checkbox"
               onChange={handleChange}
               defaultChecked={state.organic}
@@ -58,7 +61,7 @@ export const Customer = () => {
             />
           </label>
           <button className="btn" onClick={sendUserInfo}>
-            Save Preferences
+            Save Dietary Restrictions
           </button>
         </div>
       </div>

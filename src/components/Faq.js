@@ -5,7 +5,7 @@ import './Faq.css'
 export const FAQ = () => {
     return (
         <div className="faqContainer">
-            <h1>Frequently Asked Questions</h1>
+            <h1>Frequently Asked Questions (FAQ)</h1>
             <div className="accordion">
                 <FaqItem
                     title="How to navigate this website?"

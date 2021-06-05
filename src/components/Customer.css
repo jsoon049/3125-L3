@@ -9,7 +9,7 @@ label {
   font-weight: 500;
 }
 
-input {
+.customerInput {
   width: 16px;
   height: 16px;
   cursor: pointer;
@@ -21,13 +21,6 @@ input {
   border: 1px solid;
   padding: 20px;
   margin: 0 15px;
-}
-
-.instructions {
-  margin-top: 0;
-  margin-bottom: 30px;
-  font-weight: 700;
-  color: #5e81d1;
 }
 
 @media only screen and (min-device-width: 768px) {

@@ -8,46 +8,46 @@ export const Header = () => {
     <div className="header">
       <h1 className="brand">Got Foodz</h1>
       <span
-        style={!open ? { display: "" } : { visibility: "hidden" }}
+        // style={!open ? { display: "" } : { visibility: "hidden" }}
         onClick={() => setOpen(true)}
         className="openbtn"
       >
-        menu &#9776;
+        &#9776; Menu
       </span>
-      <div>
-        {open && (
-          <ul className="sidenav">
-             <button className="closebtn" onClick={() => setOpen(false)}>
-              &times;
-            </button>
-            <li>
-              <Link to="/3125-L3/" onClick={() => setOpen(false)}>
-                Customer
-              </Link>
-            </li>
-            <li>
-              <Link to="/3125-L3/product" onClick={() => setOpen(false)}>
-                Product
-              </Link>
-            </li>
-            <li>
-              <Link to="/3125-L3/cart" onClick={() => setOpen(false)}>
-                Cart
-              </Link>
-            </li>
-            <li>
-              <Link to="/3125-L3/delivery" onClick={() => setOpen(false)}>
-                Delivery
-              </Link>
-            </li>
-            <li>
-              <Link to="/3125-L3/faq" onClick={() => setOpen(false)}>
-                FAQ
-              </Link>
-            </li>
-          </ul>
-        )}
-      </div>
+        {/* {open && (  */}
+          <div className={open ? 'sidenav active' : 'sidenav'}>
+            <button className="closebtn" onClick={() => setOpen(false)}>
+                &times;
+              </button>
+            <ul className="sidenavUL">
+              <li>
+                <Link to="/3125-L3/" onClick={() => setOpen(false)}>
+                  Dietary Restrictions
+                </Link>
+              </li>
+              <li>
+                <Link to="/3125-L3/product" onClick={() => setOpen(false)}>
+                  View Products
+                </Link>
+              </li>
+              <li>
+                <Link to="/3125-L3/cart" onClick={() => setOpen(false)}>
+                  My Cart
+                </Link>
+              </li>
+              <li>
+                <Link to="/3125-L3/delivery" onClick={() => setOpen(false)}>
+                  Delivery Info
+                </Link>
+              </li>
+              <li>
+                <Link to="/3125-L3/faq" onClick={() => setOpen(false)}>
+                  Frequently Asked Questions
+                </Link>
+              </li>
+            </ul>
+          </div>
+        {/* )} */}
     </div>
   );
 };

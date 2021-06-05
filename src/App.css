@@ -6,7 +6,7 @@ html, body, #root, .appContainer {
   height: 100%;
 }
 
-.customer, .cart, .faqContainer {
+.customer, .cart, .faqContainer, .deliveryContainer {
   height: 78%;
 }
 
@@ -25,14 +25,21 @@ h1 {
   margin-top: 40px;
 }
 
+.instructions {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #5e81d1;
+}
+
 @media only screen and (min-width: 1224px) {
-  html, body, #root, .appContainer, .prod, .customer, .cart, .faqContainer {
+  html, body, #root, .appContainer, .prod, .customer, .cart, .faqContainer, .deliveryContainer {
     height: 90%;
   }
 }
 
 @media only screen and (min-width: 1824px) {
-  html, body, #root, .appContainer, .prod, .customer, .cart, .faqContainer{
+  html, body, #root, .appContainer, .prod, .customer, .cart, .faqContainer, .deliveryContainer {
     height: 100%;
   }
 }
