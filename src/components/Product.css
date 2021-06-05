@@ -7,6 +7,10 @@
   grid-template-columns: 1fr 1fr; /* 3 columns */
 }
 
+img {
+  width: 200px;
+  height: 200px;
+}
 .prod_ul {
   text-align: center;
   border: 1px solid black;

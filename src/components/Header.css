@@ -20,7 +20,8 @@
   padding-left: 0;
   margin: 0;
   width: 350px;
-  padding-right: 1em;
+  padding-right: 0.75em;
+  padding-top: 10px;
   overflow-x: hidden;
   transition: all 500ms ease-in-out;
 }
@@ -46,7 +47,7 @@
 }
 
 .closebtn {
-  font-size: 35px;
+  font-size: 40px;
   float: right;
   border: none;
   background-color: white;
@@ -58,7 +59,7 @@
 }
 
 .openbtn {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 600;
 
 }

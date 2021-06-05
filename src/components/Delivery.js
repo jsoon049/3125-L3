@@ -3,11 +3,10 @@ import React from "react";
 export const Delivery = () => {
   return (
     <div className="deliveryContainer">
-      <h1>Delivery Information</h1>
+      <h1>Online Delivery Form</h1>
       <p className="instructions">
         If you would like your groceries to be delivered, please fill up the
-        form below <br /> and an associate from our nearest store will contact
-        you shortly.
+        form below <br /> and an associate from our store will be in contact with you shortly.
       </p>
       <form method="post" action="" className="site-form">
         <div className="question-wrapper">

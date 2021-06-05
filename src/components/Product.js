@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Card } from "./Card.js";
 import './Product.css'
+import apple from './images/apple.jpeg'
 
 export const Product = () => {
   // List of products
@@ -32,6 +33,7 @@ export const Product = () => {
       nutFree: true,
       organic: true,
       price: 1.15,
+      image: apple,
     },
     {
       name: "Banana",
