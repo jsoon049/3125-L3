@@ -1,20 +1,32 @@
 {
   "files": {
-    "main.css": "/3125-L3/static/css/main.ba80e801.chunk.css",
-    "main.js": "/3125-L3/static/js/main.52439230.chunk.js",
-    "main.js.map": "/3125-L3/static/js/main.52439230.chunk.js.map",
+    "main.css": "/3125-L3/static/css/main.66b06ca2.chunk.css",
+    "main.js": "/3125-L3/static/js/main.08ac41ea.chunk.js",
+    "main.js.map": "/3125-L3/static/js/main.08ac41ea.chunk.js.map",
     "runtime-main.js": "/3125-L3/static/js/runtime-main.554e1534.js",
     "runtime-main.js.map": "/3125-L3/static/js/runtime-main.554e1534.js.map",
-    "static/js/2.5329ffc3.chunk.js": "/3125-L3/static/js/2.5329ffc3.chunk.js",
-    "static/js/2.5329ffc3.chunk.js.map": "/3125-L3/static/js/2.5329ffc3.chunk.js.map",
+    "static/js/2.4c686cbe.chunk.js": "/3125-L3/static/js/2.4c686cbe.chunk.js",
+    "static/js/2.4c686cbe.chunk.js.map": "/3125-L3/static/js/2.4c686cbe.chunk.js.map",
     "index.html": "/3125-L3/index.html",
-    "static/css/main.ba80e801.chunk.css.map": "/3125-L3/static/css/main.ba80e801.chunk.css.map",
-    "static/js/2.5329ffc3.chunk.js.LICENSE.txt": "/3125-L3/static/js/2.5329ffc3.chunk.js.LICENSE.txt"
+    "static/css/main.66b06ca2.chunk.css.map": "/3125-L3/static/css/main.66b06ca2.chunk.css.map",
+    "static/js/2.4c686cbe.chunk.js.LICENSE.txt": "/3125-L3/static/js/2.4c686cbe.chunk.js.LICENSE.txt",
+    "static/media/apple.c9978e4d.jpeg": "/3125-L3/static/media/apple.c9978e4d.jpeg",
+    "static/media/banana.0d6e0e7c.jpg": "/3125-L3/static/media/banana.0d6e0e7c.jpg",
+    "static/media/bread.d5f6ac86.jpeg": "/3125-L3/static/media/bread.d5f6ac86.jpeg",
+    "static/media/brocolli.c480ab26.jpeg": "/3125-L3/static/media/brocolli.c480ab26.jpeg",
+    "static/media/cheese.f2daf99d.jpeg": "/3125-L3/static/media/cheese.f2daf99d.jpeg",
+    "static/media/chips.bdcbdd9c.jpeg": "/3125-L3/static/media/chips.bdcbdd9c.jpeg",
+    "static/media/granola.a934272d.jpeg": "/3125-L3/static/media/granola.a934272d.jpeg",
+    "static/media/icecream.76ad4316.jpeg": "/3125-L3/static/media/icecream.76ad4316.jpeg",
+    "static/media/milk.eca5843a.jpeg": "/3125-L3/static/media/milk.eca5843a.jpeg",
+    "static/media/nutella.db822641.jpeg": "/3125-L3/static/media/nutella.db822641.jpeg",
+    "static/media/salmon.65293535.jpeg": "/3125-L3/static/media/salmon.65293535.jpeg",
+    "static/media/yogurt.2881bc38.jpeg": "/3125-L3/static/media/yogurt.2881bc38.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.554e1534.js",
-    "static/js/2.5329ffc3.chunk.js",
-    "static/css/main.ba80e801.chunk.css",
-    "static/js/main.52439230.chunk.js"
+    "static/js/2.4c686cbe.chunk.js",
+    "static/css/main.66b06ca2.chunk.css",
+    "static/js/main.08ac41ea.chunk.js"
   ]
 }
