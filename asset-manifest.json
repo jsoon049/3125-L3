@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/3125-L3/static/css/main.201c7c2c.chunk.css",
+    "main.css": "/3125-L3/static/css/main.96cfdc2c.chunk.css",
     "main.js": "/3125-L3/static/js/main.ce4c8cb7.chunk.js",
     "main.js.map": "/3125-L3/static/js/main.ce4c8cb7.chunk.js.map",
     "runtime-main.js": "/3125-L3/static/js/runtime-main.554e1534.js",
@@ -8,7 +8,7 @@
     "static/js/2.ca9075e9.chunk.js": "/3125-L3/static/js/2.ca9075e9.chunk.js",
     "static/js/2.ca9075e9.chunk.js.map": "/3125-L3/static/js/2.ca9075e9.chunk.js.map",
     "index.html": "/3125-L3/index.html",
-    "static/css/main.201c7c2c.chunk.css.map": "/3125-L3/static/css/main.201c7c2c.chunk.css.map",
+    "static/css/main.96cfdc2c.chunk.css.map": "/3125-L3/static/css/main.96cfdc2c.chunk.css.map",
     "static/js/2.ca9075e9.chunk.js.LICENSE.txt": "/3125-L3/static/js/2.ca9075e9.chunk.js.LICENSE.txt",
     "static/media/apple.c9978e4d.jpeg": "/3125-L3/static/media/apple.c9978e4d.jpeg",
     "static/media/banana.0d6e0e7c.jpg": "/3125-L3/static/media/banana.0d6e0e7c.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.554e1534.js",
     "static/js/2.ca9075e9.chunk.js",
-    "static/css/main.201c7c2c.chunk.css",
+    "static/css/main.96cfdc2c.chunk.css",
     "static/js/main.ce4c8cb7.chunk.js"
   ]
 }
