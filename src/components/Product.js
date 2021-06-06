@@ -2,6 +2,17 @@ import React, { useState, useEffect } from "react";
 import { Card } from "./Card.js";
 import './Product.css'
 import apple from './images/apple.jpeg'
+import banana from './images/banana.jpg'
+import brocolli from './images/brocolli.jpeg'
+import bread from './images/bread.jpeg'
+import cheese from './images/cheese.jpeg'
+import chips from './images/chips.jpeg'
+import granola from './images/granola.jpeg'
+import icecream from './images/icecream.jpeg'
+import milk from './images/milk.jpeg'
+import nutella from './images/nutella.jpeg'
+import salmon from './images/salmon.jpeg'
+import yogurt from './images/yogurt.jpeg'
 
 export const Product = () => {
   // List of products
@@ -12,6 +23,8 @@ export const Product = () => {
       nutFree: true,
       organic: false,
       price: 5.99,
+      image: yogurt,
+      alt: 'image of yogurt'
     },
     {
       name: "Almond Granola",
@@ -19,6 +32,8 @@ export const Product = () => {
       nutFree: false,
       organic: true,
       price: 4.49,
+      image: granola,
+      alt: 'image of granola'
     },
     {
       name: "Salmon",
@@ -26,6 +41,8 @@ export const Product = () => {
       nutFree: true,
       organic: false,
       price: 8.99,
+      image: salmon,
+      alt: 'image of salmon'
     },
     {
       name: "Apple",
@@ -34,6 +51,7 @@ export const Product = () => {
       organic: true,
       price: 1.15,
       image: apple,
+      alt: 'image of apple'
     },
     {
       name: "Banana",
@@ -41,13 +59,17 @@ export const Product = () => {
       nutFree: true,
       organic: true,
       price: 1.45,
+      image: banana,
+      alt: 'image of banana'
     },
     {
       name: "Chips",
       lactoseFree: true,
       nutFree: true,
       organic: false,
-      price: 3.99,
+      price: 3.67,
+      image: chips,
+      alt: 'image of chips'
     },
     {
       name: "Nutella",
@@ -55,6 +77,8 @@ export const Product = () => {
       nutFree: false,
       organic: false,
       price: 5.49,
+      image: nutella,
+      alt: 'image of nutella'
     },
     {
       name: "Brocolli",
@@ -62,13 +86,17 @@ export const Product = () => {
       nutFree: true,
       organic: true,
       price: 2.49,
+      image: brocolli,
+      alt: 'image of brocolli'
     },
     {
       name: "Milk",
       lactoseFree: false,
       nutFree: true,
       organic: false,
-      price: 3.49,
+      price: 4.37,
+      image: milk,
+      alt: 'image of milk'
     },
     {
       name: "Peanut Butter Ice Cream",
@@ -76,6 +104,8 @@ export const Product = () => {
       nutFree: false,
       organic: false,
       price: 5.99,
+      image: icecream,
+      alt: 'image of peanut butter ice cream'
     },
     {
       name: "Bread",
@@ -83,6 +113,8 @@ export const Product = () => {
       nutFree: true,
       organic: true,
       price: 2.99,
+      image: bread,
+      alt: 'image of bread'
     },
     {
       name: "Cheese",
@@ -90,6 +122,8 @@ export const Product = () => {
       nutFree: true,
       organic: false,
       price: 3.99,
+      image: cheese,
+      alt: 'image of cheese'
     },
   ];
 
@@ -145,11 +179,22 @@ export const Product = () => {
     let sorted = product_names;
     product_names.sort((a, b) => a.price - b.price);
     setProds(sorted);
+    // var elementExists = document.getElementsByClassName("prod");
+    // if(elementExists != null) {
+    //   // document.getElementsByTagName("HTML")[0].style.height = '114%';
+    //   // document.getElementsByTagName("BODY")[0].style.height = '114%';
+    //   // document.getElementById("root").style.height = '114%';
+    //   // document.getElementById("appContainer").style.height = '114%';
+    //   // document.getElementById("prod").style.height = '114%';
+    // }
+    // return function cleanup () {
+
+    // }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []); // Empty array for second parameter means only run on mount and unmount. Without empty array useEffect runs in an infinite loop
 
   return (
-    <div className="prod">
+    <div className="prod" id="prod">
       <h1>Products</h1>
       <div className="prod_container">
         <div className="prod_wrapper">

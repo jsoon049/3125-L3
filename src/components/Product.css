@@ -8,8 +8,8 @@
 }
 
 img {
-  width: 200px;
-  height: 200px;
+  width: 225px;
+  height: 250px;
 }
 .prod_ul {
   text-align: center;
@@ -31,6 +31,10 @@ img {
 .prodPrice {
   margin: 0;
   margin-bottom: 10px;
+}
+
+.product-card {
+  padding-top: 10px;
 }
 
 @media only screen and (min-device-width: 768px) {

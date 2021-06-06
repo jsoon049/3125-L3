@@ -12,7 +12,7 @@ import { GlobalProvider } from "./components/GlobalState";
 
 function App() {
   return (
-    <div className="appContainer">
+    <div className="appContainer" id="appContainer">
       <GlobalProvider>
         <Router>
           <Header />
