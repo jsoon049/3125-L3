@@ -27,7 +27,7 @@ export const Cart = () => {
             <p className="totalPrice">{"Total Price: $" + totalPrice}</p>
           </div>
         ) : (
-          <h2 className="no-items">No items in your shopping cart!</h2>
+          <h2 className="no-items">No products in your shopping cart!</h2>
         )}
       </div>
     </div>

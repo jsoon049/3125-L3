@@ -61,7 +61,7 @@ export const Customer = () => {
             />
           </label>
           <button className="btn" onClick={sendUserInfo}>
-            Save Dietary Restrictions
+            Update Dietary Restrictions
           </button>
         </div>
       </div>

@@ -8,18 +8,18 @@ html, body, #root, .appContainer {
 }
 
 .customer, .cart, .faqContainer, .deliveryContainer {
-  /* height: 78%; */
   min-height: 78vh;
   margin: 0 10px;
 } 
 
 .btn {
   margin-bottom: 15px;
-  padding: 5px 15px;
+  padding: 5px 20px;
   cursor: pointer;
   background-color: #ffc6af;
   font-weight: 500;
   border: 1px solid black;
+  font-size: 15px;
 }
 
 h1 {
@@ -35,3 +35,9 @@ h1 {
   color: #5e81d1;
   text-align: center;
 }
+
+/* @media only screen and (max-width: 768px) {
+  body {
+    font-size: 90%;
+  }
+} */

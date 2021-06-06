@@ -10,20 +10,27 @@
   right: 1.5%;
 }
 
+.sidenav, .closebtn {
+  background-color: sienna;
+}
+
+.sidenav li a, .closebtn {
+  color: white;
+}
+
 .sidenav {
   height: 100%;
   position: fixed;
   z-index: 1;
   top: 0;
-  left: -400px;
-  background-color: white;
   padding-left: 0;
   margin: 0;
-  width: 350px;
   padding-right: 0.75em;
   padding-top: 10px;
   overflow-x: hidden;
   transition: all 500ms ease-in-out;
+  width: 275px;
+  left: -300px;
 }
 
 .active {
@@ -36,21 +43,19 @@
 .sidenav li a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
-  color: grey;
+  font-size: 18px;
   display: block;
   transition: 1s;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  opacity: 0.3;
 }
 
 .closebtn {
   font-size: 40px;
   float: right;
   border: none;
-  background-color: white;
 }
 
 .sidenavUL {
@@ -64,4 +69,17 @@
   color: midnightblue;
   cursor: pointer;
 
+}
+
+@media only screen and (min-width: 768px) {
+  .sidenav {
+    width: 350px;
+    left: -400px;
+  }
+  .sidenav li a {
+    font-size: 25px;
+  }
+  .active {
+    left: 0;
+  }
 }

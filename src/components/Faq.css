@@ -4,8 +4,9 @@ h3, p {
 }
 
 .accordion {
-  width: 65%;
-  margin: 2rem auto;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
 }
 
 .accordion-item {
@@ -17,11 +18,10 @@ h3, p {
   flex-direction: row;
   justify-content: space-between;
   cursor: pointer;
-  /* background-color: grey; */
 }
 
 .active {
-  font-size: 25px;
+  font-size: 20px;
   color: red;
 }
 
@@ -33,6 +33,11 @@ h3, p {
   padding: 1rem;
 }
 
-.accordion-content {
-  /* background-color: grey; */
+@media only screen and (min-width: 768px) {
+  .accordion {
+    width: 70%;
+  }
+  .active {
+    font-size: 25px;
+  }
 }
