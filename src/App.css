@@ -4,11 +4,13 @@ html {
 
 html, body, #root, .appContainer {
   height: 100%;
+  width: 100%;
 }
 
 .customer, .cart, .faqContainer, .deliveryContainer {
   /* height: 78%; */
-  min-height: 100vh;
+  min-height: 78vh;
+  margin: 0 10px;
 } 
 
 .btn {
@@ -33,15 +35,3 @@ h1 {
   color: #5e81d1;
   text-align: center;
 }
-
-/* @media only screen and (min-width: 1224px) {
-  .prod {
-    height: 190vh;
-  }
-} */
-
-/* @media only screen and (min-width: 1824px) {
-  .prod {
-    height: 100%;
-  }
-} */

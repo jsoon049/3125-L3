@@ -59,29 +59,9 @@
 }
 
 .openbtn {
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 600;
+  color: midnightblue;
+  cursor: pointer;
 
 }
-
-/* @media only screen and (min-device-width: 768px) {
-  .nav-links li {
-    margin-right: 30px;
-  }
-  a {
-    font-size: 1.15rem;
-  }
-}
-
-@media only screen and (min-width: 376px) {
-  .brand {
-    font-size: 30px;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  .header {
-    flex-direction: column;
-    flex-wrap: wrap;
-  } 
-} */

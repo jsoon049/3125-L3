@@ -4,7 +4,7 @@
 
 .prod_wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* 3 columns */
+  grid-template-columns: 1fr;
 }
 
 img {
@@ -39,7 +39,15 @@ img {
 
 @media only screen and (min-device-width: 768px) {
   .prod_wrapper {
-    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columns */
+  }
+  .prodtext {
+    font-size: 16px
+  }
+}
+
+@media only screen and (min-device-width: 1024px) {
+  .prod_wrapper {
     grid-template-columns: 1fr 1fr 1fr; /* 3 columns */
     grid-template-rows: 1fr 1fr 1fr; /* 3 rows */
   }

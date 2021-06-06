@@ -12,12 +12,5 @@
   color: white;
   font-size: 1rem;
   font-weight: 700;
-  margin: 0;
+  margin: 0 5px;
 }
-
-/* @media only screen and (min-width: 1224px) {
-  .footer {
-    position: fixed;
-    margin-top: 0;
-  }
-} */
