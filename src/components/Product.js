@@ -179,17 +179,6 @@ export const Product = () => {
     let sorted = product_names;
     product_names.sort((a, b) => a.price - b.price);
     setProds(sorted);
-    // var elementExists = document.getElementsByClassName("prod");
-    // if(elementExists != null) {
-    //   // document.getElementsByTagName("HTML")[0].style.height = '114%';
-    //   // document.getElementsByTagName("BODY")[0].style.height = '114%';
-    //   // document.getElementById("root").style.height = '114%';
-    //   // document.getElementById("appContainer").style.height = '114%';
-    //   // document.getElementById("prod").style.height = '114%';
-    // }
-    // return function cleanup () {
-
-    // }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []); // Empty array for second parameter means only run on mount and unmount. Without empty array useEffect runs in an infinite loop
 

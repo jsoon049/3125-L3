@@ -15,9 +15,9 @@
   margin: 0;
 }
 
-@media only screen and (min-width: 1224px) {
+/* @media only screen and (min-width: 1224px) {
   .footer {
     position: fixed;
     margin-top: 0;
   }
-}
+} */
