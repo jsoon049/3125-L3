@@ -9,7 +9,7 @@ export const FAQ = () => {
       <div className="accordion">
         <FaqItem
           title="How to navigate this website?"
-          content="Click the menu icon at the top left of the page to access the sidebar menu.
+          content="Click on the menu icon at the top left of the page to access the sidebar menu.
                     From there click on one of the section headers to view that specific section of the site."
         />
         <FaqItem

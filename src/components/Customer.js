@@ -21,7 +21,7 @@ export const Customer = () => {
     sessionStorage.setItem("lactoseFree", JSON.stringify(state.lactose));
     sessionStorage.setItem("nutFree", JSON.stringify(state.nuts));
     sessionStorage.setItem("organic", JSON.stringify(state.organic));
-    alert("Saved Preferences!");
+    alert("Updated your dietary restrictions!");
   };
 
   return (
