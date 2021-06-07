@@ -15,7 +15,7 @@ export const FAQ = () => {
         <FaqItem
           title="How to customize your dietary restrictions?"
           content="Navigate to the sidebar menu and click on Dietary Restrictions.
-                    Select the checkbox if that particular dietary restrition applies for you and 
+                    Select the checkbox if that particular dietary restriction applies for you and 
                     click on the Update Dietary Restrictions button to update your restrictions."
         />
         <FaqItem
@@ -35,7 +35,7 @@ export const FAQ = () => {
         <FaqItem
           title="How to place an order for delivery?"
           content="Navigate to the sidebar menu and click on Delivery Info.
-                A form along with your total order will be shown. 
+                A form along with your order totals will be shown. 
                 Enter your contact information on the provided form and click on the Submit Form button to submit your order."
         />
       </div>
